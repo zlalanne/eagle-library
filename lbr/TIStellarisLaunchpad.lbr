@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="40PIN">
+<pad name="J2.2" x="-7.62" y="22.86" drill="1.0414"/>
+<pad name="J2.4" x="-2.54" y="22.86" drill="1.0414"/>
+<pad name="J2.3" x="-5.08" y="22.86" drill="1.0414"/>
+<pad name="J2.5" x="0" y="22.86" drill="1.0414"/>
+<pad name="J2.6" x="2.54" y="22.86" drill="1.0414"/>
+<pad name="J2.7" x="5.08" y="22.86" drill="1.0414"/>
+<pad name="J2.8" x="7.62" y="22.86" drill="1.0414"/>
+<pad name="J2.9" x="10.16" y="22.86" drill="1.0414"/>
+<pad name="J2.10" x="12.7" y="22.86" drill="1.0414"/>
+<pad name="J4.2" x="-7.62" y="20.32" drill="1.0414"/>
+<pad name="J4.3" x="-5.08" y="20.32" drill="1.0414"/>
+<pad name="J4.4" x="-2.54" y="20.32" drill="1.0414"/>
+<pad name="J4.5" x="0" y="20.32" drill="1.0414"/>
+<pad name="J4.6" x="2.54" y="20.32" drill="1.0414"/>
+<pad name="J4.7" x="5.08" y="20.32" drill="1.0414"/>
+<pad name="J4.8" x="7.62" y="20.32" drill="1.0414"/>
+<pad name="J4.9" x="10.16" y="20.32" drill="1.0414"/>
+<pad name="J4.10" x="12.7" y="20.32" drill="1.0414"/>
+<pad name="J4.1" x="-10.16" y="20.32" drill="1.0414" shape="square"/>
+<pad name="J2.1" x="-10.16" y="22.86" drill="1.0414" shape="square"/>
+<pad name="J1.1" x="-10.16" y="-22.86" drill="1.0414" shape="square"/>
+<pad name="J3.1" x="-10.16" y="-20.32" drill="1.0414" shape="square"/>
+<pad name="J1.2" x="-7.62" y="-22.86" drill="1.0414"/>
+<pad name="J1.3" x="-5.08" y="-22.86" drill="1.0414"/>
+<pad name="J1.4" x="-2.54" y="-22.86" drill="1.0414"/>
+<pad name="J1.5" x="0" y="-22.86" drill="1.0414"/>
+<pad name="J1.6" x="2.54" y="-22.86" drill="1.0414"/>
+<pad name="J1.7" x="5.08" y="-22.86" drill="1.0414"/>
+<pad name="J1.8" x="7.62" y="-22.86" drill="1.0414"/>
+<pad name="J1.9" x="10.16" y="-22.86" drill="1.0414"/>
+<pad name="J1.10" x="12.7" y="-22.86" drill="1.0414"/>
+<pad name="J3.10" x="12.7" y="-20.32" drill="1.0414"/>
+<pad name="J3.9" x="10.16" y="-20.32" drill="1.0414"/>
+<pad name="J3.8" x="7.62" y="-20.32" drill="1.0414"/>
+<pad name="J3.7" x="5.08" y="-20.32" drill="1.0414"/>
+<pad name="J3.6" x="2.54" y="-20.32" drill="1.0414"/>
+<pad name="J3.4" x="-2.54" y="-20.32" drill="1.0414"/>
+<pad name="J3.5" x="0" y="-20.32" drill="1.0414"/>
+<pad name="J3.3" x="-5.08" y="-20.32" drill="1.0414"/>
+<pad name="J3.2" x="-7.62" y="-20.32" drill="1.0414"/>
+<wire x1="-19.05" y1="25.4" x2="-19.05" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-25.4" x2="15.24" y2="-25.4" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-25.4" x2="15.24" y2="25.4" width="0.127" layer="21"/>
+<wire x1="15.24" y1="25.4" x2="-19.05" y2="25.4" width="0.127" layer="21"/>
+<text x="-7.62" y="-6.35" size="2.54" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="2.54" layer="27" rot="R90">&gt;VALUE</text>
+<text x="13.97" y="-17.78" size="2.54" layer="51" rot="R90">TI Stellaris Launchpad</text>
+</package>
+</packages>
+<symbols>
+<symbol name="40PIN">
+<wire x1="-25.4" y1="22.86" x2="-25.4" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-83.82" x2="71.12" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="71.12" y1="-83.82" x2="71.12" y2="22.86" width="0.254" layer="94"/>
+<wire x1="71.12" y1="22.86" x2="-25.4" y2="22.86" width="0.254" layer="94"/>
+<pin name="+3.3V" x="-30.48" y="20.32" length="middle"/>
+<pin name="AIN11/PB5/SSI2FSS/T1CCP1/CAN0TX" x="-30.48" y="15.24" length="middle"/>
+<pin name="U1RX/PB0/T2CCP0" x="-30.48" y="10.16" length="middle"/>
+<pin name="U1TX/PB1/T2CCP1" x="-30.48" y="5.08" length="middle"/>
+<pin name="PE4/AIN9/U5RX/I2C2SCL/CAN0RX" x="-30.48" y="0" length="middle"/>
+<pin name="PE5/AIN8/U5TX/I2C2SDA/CAN0TX" x="-30.48" y="-5.08" length="middle"/>
+<pin name="SSI2CLK/PB4/AIN10/T1CCP0/CAN0RX" x="-30.48" y="-10.16" length="middle"/>
+<pin name="PA5/SSI0TX" x="-30.48" y="-15.24" length="middle"/>
+<pin name="PA6/I2C1SCL" x="-30.48" y="-20.32" length="middle"/>
+<pin name="PA7/I2C1SDA" x="-30.48" y="-25.4" length="middle"/>
+<pin name="GND" x="76.2" y="20.32" length="middle" rot="R180"/>
+<pin name="T3CCP0/PB2/I2C0SCL" x="76.2" y="15.24" length="middle" rot="R180"/>
+<pin name="PE0/AIN3/U7RX" x="76.2" y="10.16" length="middle" rot="R180"/>
+<pin name="PF0/U1RTS/SSI1RX/CAN0RX/T0CCP0/NMI/C0O/RBUTTON" x="76.2" y="5.08" length="middle" rot="R180"/>
+<pin name="RESET" x="76.2" y="0" length="middle" rot="R180"/>
+<pin name="SSI2TX/I2C3SCL/PB7/T0CCP1" x="76.2" y="-5.08" length="middle" rot="R180"/>
+<pin name="SSI2RX/I2C3SDA/PB6/T0CCP0" x="76.2" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA4/SSI0RX" x="76.2" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA3/SSI0FSS" x="76.2" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA2/SSI0CLK" x="76.2" y="-25.4" length="middle" rot="R180"/>
+<pin name="+5V" x="-30.48" y="-35.56" length="middle"/>
+<pin name="GND@1" x="-30.48" y="-40.64" length="middle"/>
+<pin name="AIN7/PD0/SSI3CLK/SSI1CLK/I2C3SCL/WT2CCP0" x="-30.48" y="-45.72" length="middle"/>
+<pin name="AIN6/PD1/SSI3FSS/SSIFSS/I2C3SDA/WT2CCP1" x="-30.48" y="-50.8" length="middle"/>
+<pin name="AIN5/PD2/SSI3RX/SSI1RX/WT3CCP0" x="-30.48" y="-55.88" length="middle"/>
+<pin name="AIN4/PD3/SSI3TX/SSI1TX/WT3CCP1" x="-30.48" y="-60.96" length="middle"/>
+<pin name="AIN2/PE1/U7TX" x="-30.48" y="-66.04" length="middle"/>
+<pin name="AIN1/PE2" x="-30.48" y="-71.12" length="middle"/>
+<pin name="AIN0/PE3" x="-30.48" y="-76.2" length="middle"/>
+<pin name="PF1/U1CTS/SSI1TX/T0CCP1/C1O/TRD1/REDLED" x="-30.48" y="-81.28" length="middle"/>
+<pin name="T1CCP0/PF2/SSI1CLK/TRD0/GREENLED" x="76.2" y="-35.56" length="middle" rot="R180"/>
+<pin name="T1CCP1/PF3/SSI1FSS/CAN0TX/TRCLK/BLUELED" x="76.2" y="-40.64" length="middle" rot="R180"/>
+<pin name="T3CCP1/PB3/I2C0SDA" x="76.2" y="-45.72" length="middle" rot="R180"/>
+<pin name="WT0CCP0/PC4/C1-/U4RX/U1RX/U1RTS" x="76.2" y="-50.8" length="middle" rot="R180"/>
+<pin name="WT0CCP1/PC5/C1+/U4TX/U1TX/U1CTS" x="76.2" y="-55.88" length="middle" rot="R180"/>
+<pin name="WT1CCP0/PC6/C0+/U3RX" x="76.2" y="-60.96" length="middle" rot="R180"/>
+<pin name="WT1CCP1/PC7/C0-/U3TX" x="76.2" y="-66.04" length="middle" rot="R180"/>
+<pin name="WT5CCP0/PD6/U2RX" x="76.2" y="-71.12" length="middle" rot="R180"/>
+<pin name="WT5CCP1/PD7/U2TX/NMI" x="76.2" y="-76.2" length="middle" rot="R180"/>
+<pin name="T2CCP0/PF4/LBUTTON" x="76.2" y="-81.28" length="middle" rot="R180"/>
+<text x="-25.4" y="25.4" size="3.81" layer="94">&gt;NAME</text>
+<text x="48.26" y="25.4" size="3.81" layer="94">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="40PIN">
+<gates>
+<gate name="G$1" symbol="40PIN" x="-22.86" y="27.94"/>
+</gates>
+<devices>
+<device name="" package="40PIN">
+<connects>
+<connect gate="G$1" pin="+3.3V" pad="J1.1"/>
+<connect gate="G$1" pin="+5V" pad="J3.1"/>
+<connect gate="G$1" pin="AIN0/PE3" pad="J3.9"/>
+<connect gate="G$1" pin="AIN1/PE2" pad="J3.8"/>
+<connect gate="G$1" pin="AIN11/PB5/SSI2FSS/T1CCP1/CAN0TX" pad="J1.2"/>
+<connect gate="G$1" pin="AIN2/PE1/U7TX" pad="J3.7"/>
+<connect gate="G$1" pin="AIN4/PD3/SSI3TX/SSI1TX/WT3CCP1" pad="J3.6"/>
+<connect gate="G$1" pin="AIN5/PD2/SSI3RX/SSI1RX/WT3CCP0" pad="J3.5"/>
+<connect gate="G$1" pin="AIN6/PD1/SSI3FSS/SSIFSS/I2C3SDA/WT2CCP1" pad="J3.4"/>
+<connect gate="G$1" pin="AIN7/PD0/SSI3CLK/SSI1CLK/I2C3SCL/WT2CCP0" pad="J3.3"/>
+<connect gate="G$1" pin="GND" pad="J2.1"/>
+<connect gate="G$1" pin="GND@1" pad="J3.2"/>
+<connect gate="G$1" pin="PA2/SSI0CLK" pad="J2.10"/>
+<connect gate="G$1" pin="PA3/SSI0FSS" pad="J2.9"/>
+<connect gate="G$1" pin="PA4/SSI0RX" pad="J2.8"/>
+<connect gate="G$1" pin="PA5/SSI0TX" pad="J1.8"/>
+<connect gate="G$1" pin="PA6/I2C1SCL" pad="J1.9"/>
+<connect gate="G$1" pin="PA7/I2C1SDA" pad="J1.10"/>
+<connect gate="G$1" pin="PE0/AIN3/U7RX" pad="J2.3"/>
+<connect gate="G$1" pin="PE4/AIN9/U5RX/I2C2SCL/CAN0RX" pad="J1.5"/>
+<connect gate="G$1" pin="PE5/AIN8/U5TX/I2C2SDA/CAN0TX" pad="J1.6"/>
+<connect gate="G$1" pin="PF0/U1RTS/SSI1RX/CAN0RX/T0CCP0/NMI/C0O/RBUTTON" pad="J2.4"/>
+<connect gate="G$1" pin="PF1/U1CTS/SSI1TX/T0CCP1/C1O/TRD1/REDLED" pad="J3.10"/>
+<connect gate="G$1" pin="RESET" pad="J2.5"/>
+<connect gate="G$1" pin="SSI2CLK/PB4/AIN10/T1CCP0/CAN0RX" pad="J1.7"/>
+<connect gate="G$1" pin="SSI2RX/I2C3SDA/PB6/T0CCP0" pad="J2.7"/>
+<connect gate="G$1" pin="SSI2TX/I2C3SCL/PB7/T0CCP1" pad="J2.6"/>
+<connect gate="G$1" pin="T1CCP0/PF2/SSI1CLK/TRD0/GREENLED" pad="J4.1"/>
+<connect gate="G$1" pin="T1CCP1/PF3/SSI1FSS/CAN0TX/TRCLK/BLUELED" pad="J4.2"/>
+<connect gate="G$1" pin="T2CCP0/PF4/LBUTTON" pad="J4.10"/>
+<connect gate="G$1" pin="T3CCP0/PB2/I2C0SCL" pad="J2.2"/>
+<connect gate="G$1" pin="T3CCP1/PB3/I2C0SDA" pad="J4.3"/>
+<connect gate="G$1" pin="U1RX/PB0/T2CCP0" pad="J1.3"/>
+<connect gate="G$1" pin="U1TX/PB1/T2CCP1" pad="J1.4"/>
+<connect gate="G$1" pin="WT0CCP0/PC4/C1-/U4RX/U1RX/U1RTS" pad="J4.4"/>
+<connect gate="G$1" pin="WT0CCP1/PC5/C1+/U4TX/U1TX/U1CTS" pad="J4.5"/>
+<connect gate="G$1" pin="WT1CCP0/PC6/C0+/U3RX" pad="J4.6"/>
+<connect gate="G$1" pin="WT1CCP1/PC7/C0-/U3TX" pad="J4.7"/>
+<connect gate="G$1" pin="WT5CCP0/PD6/U2RX" pad="J4.8"/>
+<connect gate="G$1" pin="WT5CCP1/PD7/U2TX/NMI" pad="J4.9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
